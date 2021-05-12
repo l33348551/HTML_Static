@@ -217,7 +217,7 @@ a.blackB:active {
     border: 1px solid #f0f0f0;
     width: 320px;
     border-radius: 5px;
-    background-image: url('/images/search.png');
+    background-image: url('http://www.shangtuf.com/images/search.png');
     background-position-x: left;
     background-repeat: no-repeat;
     height: 32px;
@@ -289,7 +289,7 @@ a.blackB:active {
     -webkit-box-shadow: #666 0px 0px 7px;
     -moz-box-shadow: #000 0px 0px 7px;
     box-shadow: #666 0px 0px 7px;
-    behavior: url(/PIE.htc);
+    behavior: url(http://www.shangtuf.com/PIE.htc);
 }
 /* end head */
 
@@ -413,14 +413,14 @@ a.webClass:active {
 }
 
 .hrLine {
-    background-image: url(/images/linebg.gif);
+    background-image: url(http://www.shangtuf.com/images/linebg.gif);
     background-repeat: repeat-x;
     height: 20px;
     background-position: center;
 }
 
 .hrLinePoint {
-    background-image: url(/images/line.jpg);
+    background-image: url(http://www.shangtuf.com/images/line.jpg);
     background-repeat: repeat-x;
     height: 20px;
     background-position: center;
