@@ -2551,7 +2551,7 @@ to {
 	margin: 0;
 	color: #6d6d6d;
 }
-.utf-services-area .utf-services-items .equal-height .item::after {
+.utf-services-area .utf-services-items .equal-height::after {
 	background: #c70039;
 	left: -100%;
 	content: "";
@@ -2576,10 +2576,10 @@ to {
 	-o-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;
 }
-.utf-services-area .utf-services-items .equal-height .item:hover h4, .utf-services-area .utf-services-items .equal-height .item:hover p {
+.utf-services-area .utf-services-items .equal-height .utf-services-area .utf-services-items .equal-height  {
 	color: #ffffff;
 }
-.utf-services-area .utf-services-items .equal-height .item:hover i{
+.utf-services-area .utf-services-items .equal-height i{
 	background:#ffffff;
 	color:#c70039;
 }

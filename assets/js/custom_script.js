@@ -50,7 +50,7 @@
             # Typed Text
         ===============================================*/
         $(".element").typed({
-            strings: ["角色1.", "角色2.", "角色3.", "角色4."],
+            strings: ["韩珂.", "刘薇.", "韩舒."],
             typeSpeed: 80,
             loop: true,
             backDelay: 3000
