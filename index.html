@@ -25,21 +25,153 @@
 <link href="assets/css/style.css" rel="stylesheet">
 <link href="assets/css/responsive.css" rel="stylesheet" />
 
+<link rel="stylesheet" href="assets/css/vendor/vendor.min.css" />
+<link rel="stylesheet" href="assets/css/plugins/plugins.min.css" />
+<link rel="stylesheet" href="assets/css/style.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Header Area start  -->
+    <div class="header section">
+        <!-- Header Bottom  Start -->
+        <div class="header-bottom d-none d-lg-block">
+            <div class="container position-relative">
+                <div class="row align-self-center">
+                    <!-- Header Logo Start -->
+                    <div class="col-auto align-self-center">
+                        <div class="header-logo">
+                            <a href="index.html"><img src="assets/images/logo/logo.png" alt="Site Logo" /></a>
+                        </div>
+                    </div>
+                    <!-- Header Logo End -->
 
-<header id="home"> 
+                    <!-- Header Action Start -->
+                    <div class="col align-self-center">
+                        <div class="header-actions">
+                            <div class="header_account_list">
+                                <a href="javascript:void(0)" class="header-action-btn search-btn"><i
+                                        class="icon-magnifier"></i></a>
+                                <div class="dropdown_search">
+                                    <form class="action-form" action="#">
+                                        <input class="form-control" placeholder="Enter your search key" type="text">
+                                        <button class="submit" type="submit"><i class="icon-magnifier"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- Single Wedge Start -->
+                            <div class="header-bottom-set dropdown">
+                                <button class="dropdown-toggle header-action-btn" data-bs-toggle="dropdown"><i
+                                        class="icon-user"></i></button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a class="dropdown-item" href="my-account.html">My account</a></li>
+                                    <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                                    <li><a class="dropdown-item" href="login.html">Sign in</a></li>
+                                </ul>
+                            </div>
+                            <!-- Single Wedge End -->
+                            <a href="#offcanvas-cart" class="header-action-btn header-action-btn-cart offcanvas-toggle pr-0">
+                                <i class="icon-handbag"></i>
+                                <span class="header-action-num">01</span>
+                                <!-- <span class="cart-amount">€30.00</span> -->
+                            </a>
+                            <a href="#offcanvas-mobile-menu" class="header-action-btn header-action-btn-menu offcanvas-toggle d-lg-none">
+                                <i class="icon-menu"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Header Action End -->
+                </div>
+            </div>
+        </div>
+        <!-- Header Bottom  End -->
+        <!-- Header Bottom  Start -->
+        <div class="header-bottom d-lg-none sticky-nav bg-white">
+            <div class="container position-relative">
+                <div class="row align-self-center">
+                    <!-- Header Logo Start -->
+                    <div class="col-auto align-self-center">
+                        <div class="header-logo">
+                            <a href="index.html"><img src="assets/images/logo/logo.png" alt="Site Logo" /></a>
+                        </div>
+                    </div>
+                    <!-- Header Logo End -->
+
+                    <!-- Header Action Start -->
+                    <div class="col align-self-center">
+                        <div class="header-actions">
+                            <div class="header_account_list">
+                                <a href="javascript:void(0)" class="header-action-btn search-btn"><i
+                                        class="icon-magnifier"></i></a>
+                                <div class="dropdown_search">
+                                    <form class="action-form" action="#">
+                                        <input class="form-control" placeholder="Enter your search key" type="text">
+                                        <button class="submit" type="submit"><i class="icon-magnifier"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- Single Wedge Start -->
+                            <div class="header-bottom-set dropdown">
+                                <button class="dropdown-toggle header-action-btn" data-bs-toggle="dropdown"><i
+                                        class="icon-user"></i></button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a class="dropdown-item" href="my-account.html">My account</a></li>
+                                    <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                                    <li><a class="dropdown-item" href="login.html">Sign in</a></li>
+                                </ul>
+                            </div>
+                            <!-- Single Wedge End -->
+                            <a href="#offcanvas-cart" class="header-action-btn header-action-btn-cart offcanvas-toggle pr-0">
+                                <i class="icon-handbag"></i>
+                                <span class="header-action-num">01</span>
+                                <!-- <span class="cart-amount">€30.00</span> -->
+                            </a>
+                            <a href="#offcanvas-mobile-menu" class="header-action-btn header-action-btn-menu offcanvas-toggle d-lg-none">
+                                <i class="icon-menu"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Header Action End -->
+                </div>
+            </div>
+        </div>
+        <!-- Header Bottom  End -->
+        <!-- Main Menu Start -->
+        <div class="bg-black d-none d-lg-block sticky-nav">
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="col-md-12 align-self-center">
+                        <div class="main-menu">
+                            <ul>
+								<li><a class="active" href="about.html">About us</a></li>
+                                <li><a href="contact.html">Contact us</a></li>
+								<li><a class="active" href="index.html">首页</a></li>
+								<li><a href="#">新闻咨询</a></li>
+								<li><a href="#">摄影赛事</a></li>
+								<li><a href="#">活动专题</a></li>
+								<li><a href="#">摄影展览</a></li>
+								<li><a href="#">在线影展</a></li>
+								<li><a href="about-us.html">关于我们</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Main Menu End -->
+    </div>
+    <!-- Header Area End  -->
+<!-- <header id="home"> 
   <nav class="navbar navbar-default text-light navbar-fixed navbar-transparent white bootsnav">
     <div class="container"> 
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="fa fa-bars"></i> </button>
         <a class="navbar-brand" href="index.html">
 			<p style="font-size: 28px;color: #1abc9c;">北斗星</p>
-			<!-- <img src="assets/img/1.png" class="logo logo-display" alt="Logo"> -->
-			<!-- <img src="assets/img/logo-dark.png" class="logo logo-scrolled" alt="Logo"> -->
+			<img src="assets/img/1.png" class="logo logo-display" alt="Logo">
 		</a> 
 	  </div>
       
@@ -52,55 +184,13 @@
 			<li><a href="#">摄影展览</a></li>
 			<li><a href="#">在线影展</a></li>
 			<li><a href="about-us.html">关于我们</a></li>
-<!--          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
-            <ul class="dropdown-menu">
-              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio Grid</a>
-                <ul class="dropdown-menu">
-                  <li><a href="portfolio-grid-2-colum.html">Portfolio Grid 2 Colum</a></li>
-                  <li><a href="portfolio-grid-2-colum-full-width.html">Portfolio 2 Colum Full Width</a></li>
-                  <li><a href="portfolio-grid-3-colum.html">Portfolio Grid 3 Colum</a></li>
-                  <li><a href="portfolio-grid-3-colum-full-width.html">Portfolio 3 Colum Full Width</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio Masonary</a>
-                <ul class="dropdown-menu">
-                  <li><a href="portfolio-masonary-2-colum.html">Portfolio 2 Colum</a></li>
-                  <li><a href="portfolio-masonary-3-colum.html">Portfolio 3 Colum</a></li>
-                  <li><a href="portfolio-masonary-4-colum.html">Portfolio 4 Colum</a></li>
-                  <li><a href="portfolio-masonary-4-colum-full-width.html">4 Colum Full Width</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio Mixed</a>
-                <ul class="dropdown-menu">
-                  <li><a href="portfolio-mixed-colum.html">Portfolio Mixed Style One</a></li>
-                  <li><a href="portfolio-mixed-colum-2.html">Portfolio Mixed Style Two</a></li>
-                </ul>
-              </li>
-              <li><a href="portfolio-details.html">Portfolio Details</a></li>
-            </ul>
-          </li>
-          <li><a href="about-us.html">About</a></li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
-            <ul class="dropdown-menu">
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="blog-detail.html">Blog Detail</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
-            <ul class="dropdown-menu">                            
-			  <li><a href="about-us.html">About Us</a></li>
-              <li><a href="about-me.html">About Me</a></li>
-              <li><a href="services.html">Services</a></li>
-			  <li><a href="404.html">Error Page</a></li>
-            </ul>
-          </li> -->
         </ul>
       </div>
     </div>
   </nav>
-</header>
+</header> -->
 <!-- Start Banner -->
-<div class="utf-banner-area-block shadow navbar-transparent typed-text dark-hard text-light bg-fixed" style="background-image: url(assets/img/banner/banner2.jpeg);">
+<!-- <div class="utf-banner-area-block shadow navbar-transparent typed-text dark-hard text-light bg-fixed" style="background-image: url(assets/img/banner/banner2.jpeg);">
   <div class="utf-box-table">
     <div class="utf-box-cell">
       <div class="container">
@@ -117,7 +207,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <!-- End Banner --> 
 
 <!-- Start About -->
@@ -292,6 +382,7 @@
   </div>
 </div>
 <!-- End Team --> 
+
 <!-- Start Portfolio -->
 <div id="portfolio" class="utf-portfolio-area-item text-light default-padding">
 	<div class="container">
