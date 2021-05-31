@@ -1,9 +1,9 @@
-.header-bottom {
+ .header-bottom {
 	background-color: transparent;
 	padding: 29px 0
 }
 
-	.d-lg-inline {
+	 .d-lg-inline {
 		display: inline !important
 	}
 
@@ -300,7 +300,7 @@
 	
 	.align-self-stretch {
 		align-self: stretch !important
-	}
+	} 
 	
 	.header-actions {
 		display: flex;
