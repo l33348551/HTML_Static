@@ -2496,10 +2496,10 @@ to {
     border-radius: 6px;
 }
 .fun-fact .timer {
-	color: #ffffff;
+	color: #FFFFE0;
 	font-family: "Poppins", sans-serif;
 	font-size: 50px;
-	font-weight: 900;
+	font-weight: 600;
 	margin-bottom: 10px;
     line-height: 40px;
 }
