@@ -316,7 +316,7 @@
 	}
 	
 	.header-top-massege p {
-		color: #ff7004;
+		color: #1abc9c;
 		font-family: Raleway, sans-serif;
 		font-weight: 300;
 		font-style: italic;
@@ -355,11 +355,11 @@
 	}
 	
 	.header-top-set-lan-curr .dropdown .dropdown-toggle:hover {
-		color: #ff7004
+		color: #1abc9c
 	}
 	
 	.header-top-set-lan-curr .dropdown .dropdown-toggle:hover i {
-		color: #ff7004
+		color: #1abc9c
 	}
 	
 	.header-top-set-lan-curr .dropdown .dropdown-menu {
@@ -395,7 +395,7 @@
 	}
 	
 	.header-top-set-lan-curr .dropdown .dropdown-menu .dropdown-item:hover {
-		color: #ff7004
+		color: #1abc9c
 	}
 	
 	.header-bottom {
@@ -456,7 +456,7 @@
 	}
 	
 	.header-actions .header-action-btn:hover {
-		color: #ff7004
+		color: #1abc9c
 	}
 	
 	.header-actions .header-action-btn i {
@@ -483,7 +483,7 @@
 		text-align: center;
 		color: #fff;
 		border-radius: 50%;
-		background-color: #ff7004
+		background-color: #1abc9c
 	}
 	
 	.header-actions .header-action-btn .cart-amount {
@@ -497,7 +497,7 @@
 	}
 	
 	.header-actions .header-action-btn:hover .cart-amount {
-		color: #ff7004
+		color: #1abc9c
 	}
 	
 	.header-bottom-set .dropdown-toggle {
@@ -560,7 +560,7 @@
 	}
 	
 	.header-bottom-set .dropdown-menu .dropdown-item:hover {
-		color: #ff7004
+		color: #1abc9c
 	}
 	
 	.header_account_list {
@@ -608,7 +608,7 @@
 		justify-content: center;
 		width: 60px;
 		height: 100%;
-		background: #ff7004;
+		background: #1abc9c;
 		color: #fff;
 		font-size: 20px;
 		border-radius: 0 5px 5px 0;
@@ -667,7 +667,7 @@
 	}
 	
 	.main-menu ul li a {
-		font-size: 14px;
+		font-size: 16px;
 		line-height: 60px;
 		font-weight: 400;
 		text-decoration: none;
@@ -685,7 +685,7 @@
 	
 	.main-menu ul li.active>a,
 	.main-menu ul li:hover>a {
-		color: #ff7004 !important
+		color: #1abc9c !important
 	}
 	
 	.main-menu ul li.dropdown {
@@ -842,7 +842,7 @@
 	}
 	
 	.main-menu ul li .mega-menu li ul li.title a:hover {
-		color: #ff7004;
+		color: #1abc9c;
 		padding-left: 0
 	}
 	
@@ -859,7 +859,7 @@
 	}
 	
 	.main-menu ul li .mega-menu li ul li a:hover {
-		color: #ff7004;
+		color: #1abc9c;
 		padding-left: 10px
 	}
 	
