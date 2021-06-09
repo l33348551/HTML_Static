@@ -1,9 +1,4 @@
- .header-bottom {
-	background-color: transparent;
-	padding: 29px 0
-}
-
-	 .d-lg-inline {
+	.d-lg-inline {
 		display: inline !important
 	}
 
@@ -39,7 +34,7 @@
 		display: none !important
 	}
 	
-	.container,
+ 	.container,
 	.container-fluid,
 	.container-lg,
 	.container-md,
@@ -89,7 +84,7 @@
 		.container-xl {
 			max-width: 1200px
 		}
-	}
+	} 
 	
 	.position-static {
 		position: static !important
@@ -400,7 +395,7 @@
 	
 	.header-bottom {
 		background-color: transparent;
-		padding: 29px 0
+		padding: 0px 0
 	}
 	
 	@media only screen and (min-width:768px) and (max-width:991px),

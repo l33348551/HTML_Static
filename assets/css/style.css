@@ -2469,7 +2469,7 @@ to {
 =================================================================== */
 
 .utf-fun-factor-area.bottom-less.default-padding {
-	padding-bottom: 25px;
+	padding-bottom: 0px;
 }
 .fun-fact i {
 	color: #ffffff;
@@ -2492,16 +2492,16 @@ to {
 }
 .fun-fact {
     background: #1abc9c;
-    padding: 30px 15px;
+    padding: 10px 5px;
     border-radius: 6px;
 }
 .fun-fact .timer {
 	color: #FFFFE0;
 	font-family: "Poppins", sans-serif;
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: 600;
 	margin-bottom: 10px;
-    line-height: 40px;
+    line-height: 30px;
 }
 .fun-fact .medium {
 	color: #ffffff;
@@ -2511,7 +2511,7 @@ to {
     line-height: 24px;
 }
 .utf-fun-factor-area .item {
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 }
 /* ============================================================== 
   # Services 
